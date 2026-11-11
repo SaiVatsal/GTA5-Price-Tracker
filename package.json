@@ -1,0 +1,19 @@
+{
+  "name": "gta5-steam-price-tracker",
+  "version": "1.0.0",
+  "description": "Automated 24/7 Steam Price Tracker for GTA V with Telegram notifications",
+  "main": "tracker.js",
+  "scripts": {
+    "start": "node tracker.js",
+    "test": "node tracker.js --test"
+  },
+  "keywords": [
+    "steam",
+    "gta5",
+    "price-tracker",
+    "telegram-bot",
+    "discount-alert"
+  ],
+  "author": "SaiVatsal",
+  "license": "MIT"
+}
