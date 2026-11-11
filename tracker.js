@@ -8,7 +8,7 @@ const path = require('path');
 const STATE_FILE = path.join(__dirname, 'price_state.json');
 
 // Configuration (via Environment Variables or Defaults)
-const BOT_TOKEN = process.env.TELEGRAM_BOT_TOKEN || '9124625722:AAG1ylx2LRwl00aZi0fSEnEAg0augExa8Rs';
+const BOT_TOKEN = process.env.TELEGRAM_BOT_TOKEN || '9132532819:AAEaKW4r4ejgqQgN4Ac_1brb2IfpmuhB0Ik';
 const CHAT_ID = process.env.TELEGRAM_CHAT_ID || '7986634426';
 const COUNTRY_CODE = process.env.STEAM_COUNTRY || 'in'; // 'in' for India (INR ₹), 'us' for USD ($)
 
